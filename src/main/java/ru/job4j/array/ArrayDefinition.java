@@ -9,5 +9,15 @@ public class ArrayDefinition {
         System.out.println("surnames length = " + surnames.length);
         float[] prices = new float[40];
         System.out.println("prices length = " + prices.length);
+
+        String[] names = new String[4];
+        names[0] = "Ivan";
+        names[1] = "Igor";
+        names[2] = "Dmitriy";
+        names[3] = "Alex";
+        System.out.println(names[0] + "\n"
+                           + names[1] + "\n"
+                           + names[2] + "\n"
+                           + names[3]);
     }
 }
