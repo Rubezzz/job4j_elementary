@@ -15,9 +15,9 @@ public class ArrayDefinition {
         names[1] = "Igor";
         names[2] = "Dmitriy";
         names[3] = "Alex";
-        System.out.println(names[0] + "\n"
-                           + names[1] + "\n"
-                           + names[2] + "\n"
+        System.out.println(names[0] + System.lineSeparator()
+                           + names[1] + System.lineSeparator()
+                           + names[2] + System.lineSeparator()
                            + names[3]);
     }
 }
